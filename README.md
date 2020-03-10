@@ -1,24 +1,8 @@
-# README
+# Ruby Page
+simple memo web made with ruby on rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+### ScreenShots
+<div>
+<img width="400" src="https://user-images.githubusercontent.com/50590192/76339294-39acc400-633d-11ea-8ba5-64d89f8c6ec2.png">
+<img width="400" src="https://user-images.githubusercontent.com/50590192/76339329-416c6880-633d-11ea-875f-6311a51ce54d.png">
+</div>
