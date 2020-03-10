@@ -23,3 +23,16 @@
 .header .ruby{
     color: rgb(206, 60, 60);
 }
+:focus{
+    outline: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    border: 0px;
+    padding: 5px 10px;
+    margin-top: 3px;
+    border-radius: 10px;
+}
