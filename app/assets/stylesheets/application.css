@@ -13,3 +13,12 @@
  *= require_tree .
  *= require_self
  */
+.header{
+    font-weight: 100;
+    padding: 30px 0;
+    font-size: 50px;
+    text-align: center;
+}
+.header .ruby{
+    color: rgb(206, 60, 60);
+}

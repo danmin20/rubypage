@@ -1,6 +1,26 @@
-<% @posts.each do |post| %>
-제목: <%=post.title%> <a href="/modify/<%=post.id%>">수정하기</a><br>
-내용: <%=post.content%> <a href="/delete/<%=post.id%>">삭제하기</a><hr>
-<% end %>
+<table>
+    <thead class="list_header">
+        <tr>
+            <th>Title</th>
+            <th>Content</th>
+        </tr>
+    </thead>
+    <tbody class="list_body">
+        <% @posts.each do |post| %>
+        <tr>
+            <td class="list_title">
+                <%=post.title%><br>
+            </td>
+            <td class="list_content">
+                <%=post.content%>
+            </td>
+            <td class="list_modify">
+                <a href="/modify/<%=post.id%>">Edit</a>
+                <a href="/delete/<%=post.id%>">Del</a>
+            </td>
+        <tr>
+        <% end %>
+    </tbody>
+</table>
 <br>
 <a href="/write">글쓰러 가기</a>

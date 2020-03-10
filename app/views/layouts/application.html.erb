@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Ruby</title>
+    <title>RubyPage</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
-
-  <body>
+  <header class="header">
+    <span class="ruby">Ruby</span>Page
+  </header>
+  <body class="<%=controller%>">
     <%= yield %>
   </body>
 </html>
